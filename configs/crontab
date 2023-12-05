@@ -1,0 +1,1 @@
+* * * * * /usr/bin/neofetch > /home/harris/nginx/html_files/neofetch.txt 2>/home/harris/nginx/html_files/neofetch_error.log

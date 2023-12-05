@@ -1,0 +1,188 @@
+body {
+    background-color: #030b17;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: 50% 80%;
+    margin: 0;
+}
+
+div.container {
+    background-color: rgba(21, 43, 73, 0.59);
+    max-width: 920px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+@keyframes fromwhite {
+    from {
+        color: #fff;
+    }
+
+    to {
+        color: #0c395f;
+    }
+}
+
+h1,
+h2 {
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #0c395f;
+    display: inline-block;
+    line-height: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation-name: fromwhite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 17px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #fff;
+    animation-delay: 0.3s;
+    animation-duration: 1.2s;
+}
+
+p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+pre {
+    height: 255px;
+    /* Set your desired fixed height */
+    overflow-x: auto;
+    /* Enable horizontal scrolling if necessary */
+    max-width: 100%;
+    /* Optional: Limit width to prevent overflowing the container */
+    writing-mode: horizontal-tb;
+    /* Set horizontal text flow */
+}
+
+.final-text {
+    margin-top: -8px;
+}
+
+img.bb_logo {
+    margin-top: 20px;
+    height: 250px;
+}
+
+img.aperture {
+    width: 290px;
+    filter: brightness(0) invert(1);
+}
+
+img.raspberry {
+    height: 75px;
+    float: right;
+}
+
+div.clear {
+    clear: both;
+    width: 0px;
+    height: 0px;
+}
+
+@media only screen and (max-width: 950px) {
+    div img.politie_logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    img.politie_logo_2 {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    img.om_logo {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.service-item {
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item:hover {
+    opacity: 0.7;
+}
+
+.service-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.service-item p {
+    line-height: 1.2;
+    margin: 0;
+}
+
+.neofetch-title {
+    color: #8AB4F8;
+}
+
+.neofetch-content {
+    color: #B8CCE4;
+}
+
+.neofetch-output {
+    display: flex;
+}
+
+.logo,
+.system-info {
+    overflow-x: auto;
+    /* Enable horizontal scrolling if necessary */
+    max-width: 50%;
+    /* Adjust as needed */
+}
+
+.logo {
+    flex: 0 0 auto;
+    /* Adjust the size as needed */
+    margin-right: 21px;
+}
+
+.system-info {
+    flex: 1 1 auto;
+}
