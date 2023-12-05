@@ -7,7 +7,7 @@ This repository contains Docker Compose configurations for setting up Pi-hole wi
 
 2. **Nginx**:
    - Docker Compose setup including:
-     - Default configuration files to proxy Pi-hole.
+     - Configuration files to proxy Pi-hole and setup an index page.
      - An index page displayed upon accessing the IP, based on the Dutch Police Blackbox Security seized page.
        - Integration of a script to read `neofetch` output from a text file and display it on the landing page.
 
